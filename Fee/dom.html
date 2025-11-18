@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    
+    <p>This is paragraph 1.</p>
+    <p>This is paragraph 2.</p>
+    <p>This is paragraph 3.</p>
+    <script>
+        //select all p elements
+        let paragraphs = document.getElementsByTagName("p");
+        //loop through and update each paragraph
+        for(let i = 0;i,paragraphs.length;i++){
+            paragraphs[i].style.color = "red";
+            paragraphs[i].innerHTML = "Updated Paragraph" + (i+1);
+        }
+</script>
+</body>
+</html>
+
+ <!-- <h1 id ="heading">Hello World!</h1>
+    <p id ="para">This is a paragraph</p>
+    <script>
+        //access element by ID
+        let headingElement = document.getElementById("heading");
+        let paraElement = document.getElementById("para");
+
+        //change the text content
+        headingElement.innerHTML = "Welcome to DOM";
+        paraElement.style.color = "blue";
+    </script> -->
