@@ -64,7 +64,7 @@ public class ll_cycle {
     while(temp.next != null){
         temp = temp.next;    
     }
-    temp.next = third;       // cycle created
+    temp.next = third;       // cycle created  
         boolean ans = Node.cycle(head);
         int loop = Node.cycle_length(head);
         System.out.println(ans);

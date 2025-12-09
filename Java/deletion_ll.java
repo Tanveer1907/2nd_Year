@@ -33,7 +33,7 @@ public class deletion_ll {
             }
             Node temp = head;
             while(temp.next.next!= null){
-                temp = temp.next;
+                temp = temp.next;  
             }
             temp.next = null;
             return head;
