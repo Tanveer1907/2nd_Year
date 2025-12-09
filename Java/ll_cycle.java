@@ -13,7 +13,6 @@ public class ll_cycle {
         }
 
         public static Node convertArrtoLL(int[] arr){
-           
             Node head = new Node(arr[0]);
             Node mover = head;
             for(int i = 1; i < arr.length; i++){
@@ -26,16 +25,14 @@ public class ll_cycle {
         public static boolean cycle(Node head){
             Node slow = head;
             Node fast = head;
-            boolean loop = false;
             while(fast!=null && fast.next!=null){
                 slow = slow.next;
                 fast = fast.next.next;
                 if(slow== fast){
                     return true;
-
                 }
             }
-            return loop;
+            return false;
         }
         public static int cycle_length(Node head){
             Node slow = head;
@@ -59,15 +56,15 @@ public class ll_cycle {
     public static void main(String[] args){
         int[] arr= {1,4,2,5,3,6};
         Node head = Node.convertArrtoLL(arr);
-         Node temp = head;
-    Node third = head.next.next; 
+        Node temp = head;
+    Node third = head.next.next;
     while(temp.next != null){
-        temp = temp.next;    
+        temp = temp.next;
     }
-    temp.next = third;       // cycle created  
+    temp.next = third;       // cycle created
         boolean ans = Node.cycle(head);
         int loop = Node.cycle_length(head);
-        System.out.println(ans);
+        System.out.println(loop);
     }
 }
 
