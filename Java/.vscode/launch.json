@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "palindrome",
+            "request": "launch",
+            "mainClass": "strings.palindrome",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "toggle_case",
+            "request": "launch",
+            "mainClass": "strings.toggle_case",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "vowel_consonant",
+            "request": "launch",
+            "mainClass": "strings.vowel_consonant",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
             "name": "ll_cycle",
             "request": "launch",
             "mainClass": "ll_cycle",
