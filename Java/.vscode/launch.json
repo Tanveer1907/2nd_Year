@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "compress_string",
+            "request": "launch",
+            "mainClass": "strings.compress_string",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
             "name": "palindrome",
             "request": "launch",
             "mainClass": "strings.palindrome",
