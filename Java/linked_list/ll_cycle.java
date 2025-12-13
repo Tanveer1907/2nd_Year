@@ -3,10 +3,10 @@ public class ll_cycle {
         public int data;
         public Node next;
 
-        Node(int data1, Node next1){
-            data = data1;
-            next = next1;
-        }
+        // Node(int data1, Node next1){
+        //     data = data1;
+        //     next = next1;
+        // }
         public Node(int data1){
             data = data1;
             next = null;
@@ -62,7 +62,7 @@ public class ll_cycle {
         temp = temp.next;
     }
     temp.next = third;       // cycle created
-        boolean ans = Node.cycle(head);
+        // boolean ans = Node.cycle(head);
         int loop = Node.cycle_length(head);
         System.out.println(loop);
     }

@@ -3,10 +3,10 @@ public class odd_even_ll {
         public int data;
         public Node next;
 
-        Node(int data1, Node next1){
-            data = data1;
-            next = next1;
-        }
+        // Node(int data1, Node next1){
+        //     data = data1;
+        //     next = next1;
+        // }
         public Node(int data1){
             data = data1;
             next = null;
@@ -40,7 +40,7 @@ public class odd_even_ll {
     public static void main(String[] args){
         int[] arr= {1,4,2,5,3,6};
         Node head = Node.convertArrtoLL(arr);
-        Node ans = Node.odd_even(head);
+        // Node ans = Node.odd_even(head);
         while(head!=null){
             System.out.print(head.data+" ");
             head = head.next;
