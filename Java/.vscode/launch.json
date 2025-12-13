@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "even_odd_reorder$Node",
+            "request": "launch",
+            "mainClass": "st3_practice.even_odd_reorder$Node",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "merge_2_list$Node",
+            "request": "launch",
+            "mainClass": "st3_practice.merge_2_list$Node",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
             "name": "galactic_debris",
             "request": "launch",
             "mainClass": "st3_practice.galactic_debris",
