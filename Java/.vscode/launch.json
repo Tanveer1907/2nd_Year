@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "galactic_debris",
+            "request": "launch",
+            "mainClass": "st3_practice.galactic_debris",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
             "name": "memory_lane",
             "request": "launch",
             "mainClass": "st3_practice.memory_lane",

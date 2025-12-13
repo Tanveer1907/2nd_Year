@@ -2,7 +2,7 @@ package strings;
 import java.util.*;
 public class toggle_case {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        try(Scanner sc = new Scanner(System.in)){
         String str = sc.nextLine();
         StringBuilder result = new StringBuilder();
         for(int i = 0;i<str.length();i++){
@@ -15,4 +15,5 @@ public class toggle_case {
         }
         System.out.println(result.toString());
     }
+}
 }

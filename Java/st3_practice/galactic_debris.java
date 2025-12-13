@@ -1,5 +1,6 @@
 package st3_practice;
-public class memory_lane {
+
+public class galactic_debris {
     public static class Node {
         public int data;
         public Node next;
@@ -23,25 +24,35 @@ public class memory_lane {
             }
             return head;
         }
-        public static Node reverse(Node head){
-            Node curr = head;
-            Node prev = null;
-            while(curr!=null){
-                Node newnode = curr.next;
-                curr.next = prev;
-                prev = curr;
-                curr = newnode;
+        public static Node delete(Node head){
+            if(head != null && head.data<50){ 
+                head = head.next;
             }
-            return prev;
+            Node curr = head;
+            while(curr!=null && curr.next!=null){
+                if(curr.next.data<50){
+                    curr.next = curr.next.next;
+                }
+                else{
+                    curr = curr.next;
+                }
+            }
+            return head==null ? null:head;
         }
     }
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5};
+        int[] arr = {10,55,42,90,12,77};
         Node head = Node.convertArrtoLL(arr);
-        Node ans = Node.reverse(head);
-        while(ans!=null){
-            System.out.print(ans.data+" ");
-            ans = ans.next;
+        Node ans = Node.delete(head);
+        if(ans== null){
+            System.out.println("-1");
+        }
+        else{
+            while(ans!=null){
+                System.out.print(ans.data+" ");
+                ans = ans.next;
+            }
         }
     }
+    
 }
