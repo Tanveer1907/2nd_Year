@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "memory_lane",
+            "request": "launch",
+            "mainClass": "st3_practice.memory_lane",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
             "name": "compress_string",
             "request": "launch",
             "mainClass": "strings.compress_string",
