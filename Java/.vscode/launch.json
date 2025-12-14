@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "delete_last_dll",
+            "request": "launch",
+            "mainClass": "st3_practice.delete_last_dll",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "right_rotate_dll",
+            "request": "launch",
+            "mainClass": "st3_practice.right_rotate_dll",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "swap_nodes_dll",
+            "request": "launch",
+            "mainClass": "st3_practice.swap_nodes_dll",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
             "name": "circular_ll",
             "request": "launch",
             "mainClass": "st3_practice.circular_ll",
