@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "circular_ll",
+            "request": "launch",
+            "mainClass": "st3_practice.circular_ll",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "lost_signal_node$Node",
+            "request": "launch",
+            "mainClass": "st3_practice.lost_signal_node$Node",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "rev_alternate_k_nodes$Node",
+            "request": "launch",
+            "mainClass": "st3_practice.rev_alternate_k_nodes$Node",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
             "name": "even_odd_reorder$Node",
             "request": "launch",
             "mainClass": "st3_practice.even_odd_reorder$Node",
