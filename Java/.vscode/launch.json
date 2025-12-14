@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "letter_digit_extract",
+            "request": "launch",
+            "mainClass": "st3_practice.letter_digit_extract",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "frequency_char",
+            "request": "launch",
+            "mainClass": "st3_practice.frequency_char",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "palindrome_vowel_check",
+            "request": "launch",
+            "mainClass": "st3_practice.palindrome_vowel_check",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "overlapping",
+            "request": "launch",
+            "mainClass": "st3_practice.overlapping",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "cipher_shift",
+            "request": "launch",
+            "mainClass": "st3_practice.cipher_shift",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "mirror_msg",
+            "request": "launch",
+            "mainClass": "st3_practice.mirror_msg",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
             "name": "delete_last_dll",
             "request": "launch",
             "mainClass": "st3_practice.delete_last_dll",

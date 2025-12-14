@@ -17,11 +17,16 @@ public class swap_nodes_dll {
         }
         Node nodex = null, nodey = null;
         Node curr = head;
-        while(curr!=null){
-            if(curr.data==x) nodex = curr;
-            if(curr.data == y) nodey = curr;
+        int pos = 1;
+        while (curr != null) {
+            if (pos == x)
+                nodex= curr;
+            if (pos == y)
+                nodey = curr;
             curr = curr.next;
+            pos++;
         }
+
         if(nodex==null || nodey == null){
             return head;
         }
