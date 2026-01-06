@@ -6,6 +6,146 @@
     "configurations": [
         {
             "type": "java",
+            "name": "split_circular_ll",
+            "request": "launch",
+            "mainClass": "ete_practice.split_circular_ll",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "intersection_nodes",
+            "request": "launch",
+            "mainClass": "ete_practice.intersection_nodes",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "union_nodes",
+            "request": "launch",
+            "mainClass": "ete_practice.union_nodes",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "rev_alt_k_nodes",
+            "request": "launch",
+            "mainClass": "ete_practice.rev_alt_k_nodes",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "prize_manager",
+            "request": "launch",
+            "mainClass": "ete_practice.prize_manager",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "runner_pointers",
+            "request": "launch",
+            "mainClass": "ete_practice.runner_pointers",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "warehouse_inventory",
+            "request": "launch",
+            "mainClass": "ete_practice.warehouse_inventory",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "upper_triangular_matrix",
+            "request": "launch",
+            "mainClass": "ete_practice.upper_triangular_matrix",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "coins_in_snake_game",
+            "request": "launch",
+            "mainClass": "ete_practice.coins_in_snake_game",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "ticket_queue",
+            "request": "launch",
+            "mainClass": "ete_practice.ticket_queue",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "voting_consensus",
+            "request": "launch",
+            "mainClass": "ete_practice.voting_consensus",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "circular_acl",
+            "request": "launch",
+            "mainClass": "ete_practice.circular_acl",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "make_array_positive",
+            "request": "launch",
+            "mainClass": "ete_practice.make_array_positive",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "datastream",
+            "request": "launch",
+            "mainClass": "ete_practice.datastream",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "last_occurence",
+            "request": "launch",
+            "mainClass": "ete_practice.last_occurence",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "airport_mishap",
+            "request": "launch",
+            "mainClass": "ete_practice.airport_mishap",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "garden_beautiful",
+            "request": "launch",
+            "mainClass": "ete_practice.garden_beautiful",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "family_photograph",
+            "request": "launch",
+            "mainClass": "ete_practice.family_photograph",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "calc_total_searchtime",
+            "request": "launch",
+            "mainClass": "ete_practice.calc_total_searchtime",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "sensor_data_peak",
+            "request": "launch",
+            "mainClass": "ete_practice.sensor_data_peak",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
             "name": "letter_digit_extract",
             "request": "launch",
             "mainClass": "st3_practice.letter_digit_extract",
