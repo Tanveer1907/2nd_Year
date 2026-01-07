@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "caesar_cipher",
+            "request": "launch",
+            "mainClass": "ete_practice.caesar_cipher",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "genetic_sequence",
+            "request": "launch",
+            "mainClass": "ete_practice.genetic_sequence",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "counting_characters",
+            "request": "launch",
+            "mainClass": "ete_practice.counting_characters",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "content_analysis",
+            "request": "launch",
+            "mainClass": "ete_practice.content_analysis",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "validate_string",
+            "request": "launch",
+            "mainClass": "ete_practice.validate_string",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "capitalize_1st_letter",
+            "request": "launch",
+            "mainClass": "ete_practice.capitalize_1st_letter",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "rev_words_order",
+            "request": "launch",
+            "mainClass": "ete_practice.rev_words_order",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "virus_clone",
+            "request": "launch",
+            "mainClass": "ete_practice.virus_clone",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "brand_logo",
+            "request": "launch",
+            "mainClass": "ete_practice.brand_logo",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "duplicate_flyer",
+            "request": "launch",
+            "mainClass": "ete_practice.duplicate_flyer",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
+            "name": "decode_enemy_msg",
+            "request": "launch",
+            "mainClass": "ete_practice.decode_enemy_msg",
+            "projectName": "Java_1110d462"
+        },
+        {
+            "type": "java",
             "name": "split_circular_ll",
             "request": "launch",
             "mainClass": "ete_practice.split_circular_ll",
